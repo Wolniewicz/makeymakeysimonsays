@@ -17,7 +17,7 @@ while True:
             winsound.Beep(Freq,Dur)
         elif key == 72: #Up arrow
             winsound.Beep(3000,Dur)
-        elif key == 75: #right arrow
+        elif key == 75: #left arrow
             winsound.Beep(3500,Dur)
-        elif key == 77: #left arrow
+        elif key == 77: #right arrow
             winsound.Beep(4000,Dur)

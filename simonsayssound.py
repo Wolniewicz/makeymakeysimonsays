@@ -3,7 +3,7 @@ from msvcrt import getch
 import winsound
 Freq = 2500 # Set Frequency To 2500 Hertz
 Dur = 1000 # Set Duration To 1000 ms == 1 second
-winsound.Beep(Freq,Dur)
+#winsound.Beep(Freq,Dur)
 
 ans = []
 usr = []
@@ -27,16 +27,16 @@ while True:
         key = ord(getch())
         if key == 80: #Down arrow
             winsound.Beep(Freq,Dur)
-            ans.append("a")
+            usr.append("a")
         elif key == 72: #Up arrow
             winsound.Beep(3000,Dur)
-            ans.append("b")
+            usr.append("b")
         elif key == 75: #left arrow
             winsound.Beep(3500,Dur)
-            ans.append("c")
+            usr.append("c")
         elif key == 77: #right arrow
             winsound.Beep(4000,Dur)
-            ans.append("d")
+            usr.append("d")
 
 if ans == usr:
     print 'YOU WON!!!'

@@ -31,10 +31,10 @@ while True:
         elif key == 72: #Up arrow
             winsound.Beep(3000,Dur)
             ans.append("b")
-        elif key == 75: #right arrow
+        elif key == 75: #left arrow
             winsound.Beep(3500,Dur)
             ans.append("c")
-        elif key == 77: #left arrow
+        elif key == 77: #right arrow
             winsound.Beep(4000,Dur)
             ans.append("d")
 
@@ -43,3 +43,4 @@ if ans == usr:
     exit()
 
 print 'YOU LOST!!!'
+
